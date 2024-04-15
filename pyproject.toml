@@ -4,10 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "tython-tb"
-dynamic = ["version"]
-description = ''
+version = "0.1.0"
+description = 'A Python package consisting of functions developed by Tyler Bonnell.'
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 license = "MIT"
 keywords = []
 authors = [
@@ -16,13 +16,10 @@ authors = [
 classifiers = [
   "Development Status :: 4 - Beta",
   "Programming Language :: Python",
-  "Programming Language :: Python :: 3.8",
   "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
-  "Programming Language :: Python :: Implementation :: CPython",
-  "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = []
 
@@ -30,6 +27,3 @@ dependencies = []
 Documentation = "https://github.com/unknown/tython-tb#readme"
 Issues = "https://github.com/unknown/tython-tb/issues"
 Source = "https://github.com/unknown/tython-tb"
-
-[tool.hatch.version]
-path = "src/tython_tb/__about__.py"
